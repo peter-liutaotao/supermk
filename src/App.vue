@@ -1,9 +1,9 @@
 <template>
   <div id="app">
      <!-- exclude不包括哪几个组件-->
-    <keep-alive exclude="Detail">
+  
       <router-view/>
-    </keep-alive>
+   
     <MainTabBar/>
   </div>
 </template>
